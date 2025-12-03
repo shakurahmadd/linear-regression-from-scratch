@@ -67,8 +67,13 @@ The model successfully learns values close to the true parameters:
 
 The notebook also includes:
 
-* Loss curve over training
-* Final fitted line vs. data
+
+### 📉 Loss Curve
+<img src="images/loss_curve.png" width="500"/>
+
+### 📈 Final Model Fit
+<img src="images/fitted_line.png" width="500"/>
+  
 
 ---
 
