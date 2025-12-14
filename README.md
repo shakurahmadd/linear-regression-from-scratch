@@ -8,15 +8,15 @@ The goal is to understand the fundamentals of:
 * Prediction function
 * Mean Squared Error (MSE) loss
 * Gradient computation
-* Gradient Descent optimization
+* Gradient Descent optimisation
 * Parameter convergence
-* Visualization of the learning process
+* Visualisation of the learning process
 
 This project demonstrates how linear models learn under the hood.
 
 ---
 
-## 📊 **Project Overview**
+## **Project Overview**
 
 We generate synthetic data from the true relationship:
 
@@ -26,21 +26,21 @@ y = 3x + 7 + noise
 
 Then we implement:
 
-### ✔ Prediction function
+### Prediction function
 
 Uses matrix multiplication (`X @ w + b`)
 
-### ✔ MSE Loss
+### MSE Loss
 
 ```math
 MSE = (1/n) * Σ (y_pred_i - y_i)^2
 ```
 
-### ✔ Gradients
+### Gradients
 
 Computed manually using the derivative of the MSE loss.
 
-### ✔ Gradient Descent
+### Gradient Descent
 
 Parameters updated using:
 
@@ -49,13 +49,13 @@ w := w - learning_rate * grad_w
 b := b - learning_rate * grad_b
 ```
 
-### ✔ Training Loop
+### Training Loop
 
 Runs multiple gradient descent steps until convergence.
 
 ---
 
-## 📉 **Training Results**
+## **Training Results**
 
 The model successfully learns values close to the true parameters:
 
@@ -68,10 +68,10 @@ The model successfully learns values close to the true parameters:
 The notebook also includes:
 
 
-### 📉 Loss Curve
+### Loss Curve
 <img src="images/loss_curve.png" width="500"/>
 
-### 📈 Final Model Fit
+### Final Model Fit
 <img src="images/fitted_line.png" width="500"/>
   
 
@@ -88,7 +88,7 @@ linear-regression-from-scratch/
 
 ---
 
-## 🚀 **Why This Project Matters**
+## **Why This Project Matters**
 
 This project demonstrates understanding of key ML concepts:
 
@@ -108,7 +108,7 @@ This forms a strong foundation for:
 
 ---
 
-## 🧠 **What I Learned**
+## **What I Learned**
 
 * How linear regression works internally
 * How gradients drive learning
@@ -118,7 +118,7 @@ This forms a strong foundation for:
 
 ---
 
-## 📦 **Future Improvements**
+## **Future Improvements**
 
 * Polynomial regression
 * Multi-feature regression
@@ -128,7 +128,7 @@ This forms a strong foundation for:
 
 ---
 
-## ✨ **Author**
+## **Author**
 
 **Shakur Ahmad**
 Aspiring Machine Learning Engineer
